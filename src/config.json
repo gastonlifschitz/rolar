@@ -1,0 +1,107 @@
+{
+  "sections": [
+    {
+      "key": "batch",
+      "label": "Nuevo lote"
+    },
+    {
+      "key": "samples",
+      "label": "Control de muestra"
+    },
+    {
+      "key": "mill",
+      "label": "Ingreso molino"
+    },
+    {
+      "key": "cent",
+      "label": "Ingreso centrífuga"
+    },
+    {
+      "key": "storage",
+      "label": "Ingreso almacenamiento"
+    },
+    {
+      "key": "tank",
+      "label": "Cierre de tanques"
+    }
+  ],
+  "prodLine": [
+    { "id": "1", "text": "Linea 1", "value": "Linea 1" },
+    { "id": "2", "text": "Linea 2", "value": "Linea 2" }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "text": "Rolar de Cuyo SA",
+      "value": "rolar",
+      "chutes": [
+        { "id": "1", "text": "100", "value": "2700" },
+        { "id": "2", "text": "101", "value": "2720" },
+        { "id": "3", "text": "102", "value": "1580" },
+        { "id": "4", "text": "103", "value": "1380" }
+      ]
+    },
+    {
+      "id": "2",
+      "text": "Acequión SA",
+      "value": "acequion",
+      "chutes": [
+        { "id": "1", "text": "1", "value": "2000" },
+        { "id": "2", "text": "2", "value": "1980" },
+        { "id": "3", "text": "3", "value": "1700" },
+        { "id": "4", "text": "4", "value": "1740" }
+      ]
+    },
+    { "id": "3", "text": "Fideicomiso I", "value": "fideicomiso" },
+    { "id": "4", "text": "Osiris SA", "value": "osiris" },
+    { "id": "5", "text": "Viñas Marsili SA", "value": "viñas" },
+    { "id": "6", "text": "ODE", "value": "ode" },
+    { "id": "7", "text": "Ranfer", "value": "ranfer" },
+    { "id": "8", "text": "Olivaterra SA", "value": "olivaterra" },
+    { "id": "9", "text": "Olimás SA", "value": "olimas" },
+    { "id": "10", "text": "Otros", "value": "otros" }
+  ],
+  "oliveTypes": [
+    { "id": "1", "text": "Arbequina", "value": "arbequina" },
+    { "id": "2", "text": "Arbosana", "value": "arbosana" },
+    { "id": "3", "text": "Barnea", "value": "barnea" },
+    { "id": "4", "text": "Coratina", "value": "coratina" },
+    { "id": "5", "text": "Changlot", "value": "changlot" },
+    { "id": "6", "text": "Picual", "value": "picual" }
+  ],
+  "feedbackLabels": {
+    "submit": {
+      "batch": "Lote registrado correctamente",
+      "samples": "Control de muestra registrado correctamente",
+      "mill": "Ingreso a molino registrado correctamente",
+      "cent": "Ingreso a centrifuga registrado correctamente",
+      "storage": "Almacenamiento registrado correctamente",
+      "tank": "Tanque cerrado correctamente"
+    },
+    "update": {
+      "batch": "Lote actualizado correctamente",
+      "samples": "Control de muestra actualizado",
+      "mill": "Ingreso a molino actualizado",
+      "cent": "Ingreso a centrifuga actualizado",
+      "storage": "Almacenamiento actualizado",
+      "tank": "Tanque cerrado correctamente"
+    }
+  },
+  "errorMessages": {
+    "general": "Error de conexión. Si el error persiste contacte a su administrador."
+  },
+  "baseURL": "https://rolar-foodtrust.mybluemix.net",
+  "tokenKey": "rolar-token",
+  "sieves": [
+    { "id": "1", "text": "Criba 1", "value": "1" },
+    { "id": "2", "text": "Criba 2", "value": "2" },
+    { "id": "3", "text": "Criba 3", "value": "3" },
+    { "id": "4", "text": "Criba 4", "value": "4" },
+    { "id": "5", "text": "Criba 5", "value": "5" },
+    { "id": "6", "text": "Criba 6", "value": "6" },
+    { "id": "7", "text": "Criba 7", "value": "7" },
+    { "id": "8", "text": "Criba 8", "value": "8" },
+    { "id": "9", "text": "Criba 9", "value": "9" },
+    { "id": "10", "text": "Criba 10", "value": "10" }
+  ]
+}

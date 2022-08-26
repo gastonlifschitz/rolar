@@ -1,0 +1,30 @@
+.template__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  background: #f4f4f4;
+  padding: 16px 25px 16px 25px;
+  .template__grid {
+    height: 75vh;
+    overflow: scroll;
+  }
+  .buttons {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 100vw;
+    display: inline-block;
+    // justify-content: space-evenly;
+    // place-items: center;
+    // border: 1px solid blue;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .template__container {
+    width: 60vw;
+    // height: 100vh;
+  }
+}

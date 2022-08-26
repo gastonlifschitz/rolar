@@ -1,0 +1,75 @@
+.template__container {
+  .bx--grid {
+    .bx--btn--tertiary {
+      color: #73ce1b;
+      border-color: #73ce1b;
+    }
+    .bx--btn--tertiary:hover {
+      background-color: #1bce54;
+    }
+  }
+  .bx--grid {
+    margin-left: 0px;
+    margin-right: 0px;
+    .bx--row {
+      .bx--col {
+        // display: grid;
+        // place-items: center;
+      }
+    }
+  }
+}
+
+.bb {
+  border: 1px blue solid;
+}
+
+.bg--white {
+  background-color: white;
+}
+
+.red {
+  color: red;
+}
+
+.gray {
+  color: darkslategray;
+}
+.green {
+  color: green;
+}
+
+.subtitle {
+  // font-family: Lato;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #13232a;
+}
+
+.helper {
+  // font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #13232a;
+}
+
+.time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6a6a6a;
+}
+
+.time-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6a6a6a;
+}
